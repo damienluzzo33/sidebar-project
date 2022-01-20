@@ -1,12 +1,13 @@
-// import logo from './logo.svg';
 import CustomizedList from "./CustomizedList";
+import ChatApp from "./ChatApp";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <div className="sidebar">
+      <div className="application">
         <CustomizedList />
+        <ChatApp />
       </div>
     </div>
   );
